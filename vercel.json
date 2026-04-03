@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "src": "/(.*)\\.html",
+      "headers": {
+        "Location": "/$1"
+      },
+      "status": 301
+    },
+    {
+      "src": "/([^\\.]+)",
+      "dest": "/$1.html"
+    }
+  ]
+}
