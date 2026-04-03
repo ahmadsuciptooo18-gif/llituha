@@ -10,17 +10,17 @@
  
   /* ── DATA ── */
   const products = [
- {
-  cat: 'HOME LIFT', name: 'Home Elevator HL-300',
-  img: '../images/homelift.jpg',
-  desc: 'Lift rumah modern untuk hunian pribadi. Kabin compact dengan finishing kayu atau kaca, cocok untuk 2–4 orang. Dilengkapi sistem keamanan dan kenyamanan maksimal untuk penggunaan sehari-hari.',
-  specs: [
-    ['Kapasitas Beban','300 kg / 4 Orang'],['Kecepatan','0.6 m/s'],['Jumlah Lantai','Maks. 4 Lantai'],
-    ['Dimensi Kabin','900 × 1100 × 2100 mm'],['Pintu','Automatic Swing / Sliding, 700mm'],
-    ['Drive System','Hydraulic / Traction Gearless'],['Sertifikasi','SNI, ISO 9001:2015'],['Garansi','3 Tahun Penuh'],
-  ],
-  features: ['Kabin finishing kayu atau kaca','Lampu LED nyaman','Lantai vinyl / kayu pilihan','Sistem pengereman darurat otomatis','Backup listrik saat mati listrik','Panel tombol ramah anak & lansia','Sensor keamanan pintu dan kabin'],
-},
+    {
+      cat: 'LIFT PENUMPANG', name: 'Executive Passenger Elevator EP-800',
+      img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=85',
+      desc: 'Lift penumpang premium dirancang untuk gedung perkantoran, hotel bintang lima, dan pusat perbelanjaan kelas atas. Kabin berbahan stainless steel hairline dengan pencahayaan LED ambiance dan lantai marmer pilihan.',
+      specs: [
+        ['Kapasitas Beban','800 kg / 10 Orang'],['Kecepatan','1.75 m/s'],['Jumlah Lantai','Maks. 20 Lantai'],
+        ['Dimensi Kabin','1100 × 1400 × 2200 mm'],['Pintu','Side Opening, 900mm'],
+        ['Drive System','VVVF Traction (Gearless)'],['Sertifikasi','SNI, ISO 9001:2015'],['Garansi','2 Tahun Penuh'],
+      ],
+      features: ['Kabin stainless steel hairline premium','Pencahayaan LED CCT adjustable','Lantai granit / vinyl pilihan','Sistem pengereman darurat otomatis','ARD (Automatic Rescue Device)','Panel tombol braille aksesibilitas','CCTV dan interkom terintegrasi'],
+    },
     {
       cat: 'LIFT PENUMPANG', name: 'Hospital & Medical Elevator HM-1600',
       img: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=85',
