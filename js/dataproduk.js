@@ -12,7 +12,7 @@
   const products = [
     {
       cat: 'LIFT PENUMPANG', name: 'Executive Passenger Elevator EP-800',
-      img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=85',
+      img: '../images/homelift.jpg',
       desc: 'Lift penumpang premium dirancang untuk gedung perkantoran, hotel bintang lima, dan pusat perbelanjaan kelas atas. Kabin berbahan stainless steel hairline dengan pencahayaan LED ambiance dan lantai marmer pilihan.',
       specs: [
         ['Kapasitas Beban','800 kg / 10 Orang'],['Kecepatan','1.75 m/s'],['Jumlah Lantai','Maks. 20 Lantai'],
