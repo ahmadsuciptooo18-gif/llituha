@@ -1,2 +1,0 @@
-# llituha
-dokumentasi
