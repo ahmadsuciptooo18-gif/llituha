@@ -23,7 +23,7 @@
     },
     {
       cat: 'LIFT PENUMPANG', name: 'Passenger Tipe Standard',
-      img: '../images/passenger.jpg',
+      img: '../images/passenger2.jpg',
       desc: 'Lift medis berstandar internasional untuk rumah sakit, klinik, dan fasilitas kesehatan. Kabin extra lebar mendukung brankar, tandu, dan kursi roda. Material interior anti-bakteri dan mudah dibersihkan.',
       specs: [
         ['Kapasitas Beban','1600 kg / 21 Orang'],['Kecepatan','1.0 m/s'],['Jumlah Lantai','Maks. 15 Lantai'],
