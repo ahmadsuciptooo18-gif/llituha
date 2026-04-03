@@ -12,7 +12,7 @@
   const products = [
  {
   cat: 'HOME LIFT', name: 'Home Elevator HL-300',
-  img: 'https://images.unsplash.com/photo-1602524819052-8b0e8b9f5f9b?w=800&q=85',
+  img: '../images/homelift.jpg',
   desc: 'Lift rumah modern untuk hunian pribadi. Kabin compact dengan finishing kayu atau kaca, cocok untuk 2–4 orang. Dilengkapi sistem keamanan dan kenyamanan maksimal untuk penggunaan sehari-hari.',
   specs: [
     ['Kapasitas Beban','300 kg / 4 Orang'],['Kecepatan','0.6 m/s'],['Jumlah Lantai','Maks. 4 Lantai'],
