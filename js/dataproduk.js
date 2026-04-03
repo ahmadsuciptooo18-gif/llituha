@@ -11,7 +11,7 @@
   /* ── DATA ── */
   const products = [
     {
-      cat: 'LIFT PENUMPANG', name: 'Executive Passenger Elevator EP-800',
+      cat: 'HOME LIFT', name: 'Homelift Tipe Standard',
       img: '../images/homelift.jpg',
       desc: 'Lift penumpang premium dirancang untuk gedung perkantoran, hotel bintang lima, dan pusat perbelanjaan kelas atas. Kabin berbahan stainless steel hairline dengan pencahayaan LED ambiance dan lantai marmer pilihan.',
       specs: [
@@ -22,8 +22,8 @@
       features: ['Kabin stainless steel hairline premium','Pencahayaan LED CCT adjustable','Lantai granit / vinyl pilihan','Sistem pengereman darurat otomatis','ARD (Automatic Rescue Device)','Panel tombol braille aksesibilitas','CCTV dan interkom terintegrasi'],
     },
     {
-      cat: 'LIFT PENUMPANG', name: 'Hospital & Medical Elevator HM-1600',
-      img: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=85',
+      cat: 'LIFT PENUMPANG', name: 'Passenger Tipe Standard',
+      img: '../images/passenger.jpg',
       desc: 'Lift medis berstandar internasional untuk rumah sakit, klinik, dan fasilitas kesehatan. Kabin extra lebar mendukung brankar, tandu, dan kursi roda. Material interior anti-bakteri dan mudah dibersihkan.',
       specs: [
         ['Kapasitas Beban','1600 kg / 21 Orang'],['Kecepatan','1.0 m/s'],['Jumlah Lantai','Maks. 15 Lantai'],
