@@ -1,0 +1,18 @@
+1️⃣ Edit kode di VS Code
+Buka file yang mau diubah (misal index.html, style.css, app.js)
+Lakukan perubahan seperti biasa
+2️⃣ Simpan perubahan
+Tekan Ctrl + S atau File → Save
+3️⃣ Commit perubahan ke Git lokal
+
+Di terminal VS Code:
+
+git add .
+git commit -m "add new feature"
+
+💡 Tips: Tulis deskripsi yang jelas supaya gampang tracking perubahan
+
+4️⃣ Push ke GitHub
+git push
+Setelah push selesai, GitHub terupdate
+Vercel otomatis detect commit baru → build → deploy
