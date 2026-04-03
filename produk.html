@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hubungi Kami – Lituha Elevator</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="css/produk.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+  <div id="pgbar">
+    <div id="pgfill"></div>
+  </div>
+<!-- NAVBAR -->
+  <header id="hdr">
+<a href="#" class="wordmark">
+  <img src="logo.png" alt="LITUHA Logo" style="height:40px;">
+</a>
+    <nav class="desktop">
+      <a href="index.html">Beranda</a>
+      <a href="#">Produk</a>
+     
+      <a href="#">Proyek</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:16px;">
+         <a href="hubungi-kami.html" class="nav-cta" style="display:none; text-decoration:none;" id="ctaBtn">
+    Hubungi Kami
+  </a>
+      <div class="burger" id="burger"><span></span><span></span><span></span></div>
+    </div>
+  </header>
+
+  <div class="m-menu" id="mMenu">
+    <a href="index.html">Beranda</a>
+    <a href="#">Produk</a>
+    
+    <a href="#">Proyek</a>
+
+  </div>
+
+<!-- STRIP -->
+<br>
+<br>
+<br>
+<br>
+  <div class="marquee-strip">
+    <div class="marquee-inner">
+      <span>Lift Penumpang</span><span>Lift Barang</span><span>Eskalator</span>
+      <span>Modernisasi</span><span>Maintenance 24/7</span>
+      <span>Lift Penumpang</span><span>Lift Barang</span><span>Eskalator</span>
+      <span>Modernisasi</span><span>Maintenance 24/7</span>
+    </div>
+  </div>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="breadcrumb">BERANDA <span>›</span> PRODUK</div>
+  <h1 class="page-title">Lini Produk<br><em>Unggulan</em></h1>
+  <p class="page-desc">Solusi transportasi vertikal terlengkap untuk hunian, komersial, dan industri. Dirancang untuk keamanan, efisiensi, dan estetika tertinggi.</p>
+</div>
+
+<!-- FILTER BAR -->
+<div class="filter-bar">
+  <span class="filter-label">KATEGORI :</span>
+  <button class="filter-btn active" onclick="filterProducts('all', this)">SEMUA</button>
+  <button class="filter-btn" onclick="filterProducts('penumpang', this)">LIFT PENUMPANG</button>
+  <button class="filter-btn" onclick="filterProducts('barang', this)">LIFT BARANG</button>
+  <button class="filter-btn" onclick="filterProducts('eskalator', this)">ESKALATOR</button>
+  <button class="filter-btn" onclick="filterProducts('dumbwaiter', this)">DUMBWAITER</button>
+</div>
+
+<!-- PRODUCT GRID -->
+<div class="product-section">
+  <div class="product-grid" id="productGrid">
+
+    <!-- CARD 1 -->
+    <div class="product-card reveal" data-cat="penumpang" onclick="openModal(0)">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Passenger Elevator Premium" onerror="this.parentElement.innerHTML='<div class=\'card-img-placeholder\'><svg width=\'64\' height=\'64\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'#c9933a\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><path d=\'M9 9h6M9 12h6M9 15h4\'/></svg><span>LIFT PENUMPANG</span></div>'">
+        <span class="card-badge best">BEST SELLER</span>
+      </div>
+      <div class="card-body">
+        <div class="card-cat">LIFT PENUMPANG</div>
+        <div class="card-name">Executive Passenger<br>Elevator EP-800</div>
+        <div class="card-desc">Lift penumpang premium dengan kabin stainless steel berlapis, cocok untuk gedung perkantoran dan hotel bintang lima.</div>
+        <div class="card-specs">
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>800 kg</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>1.75 m/s</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>Max 20 Lantai</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>10 Orang</div>
+        </div>
+        <div class="card-footer">
+          <span class="card-price">MINTA PENAWARAN</span>
+          <span class="card-cta">DETAIL →</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="product-card reveal reveal-d1" data-cat="penumpang" onclick="openModal(1)">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Hospital Elevator" onerror="this.parentElement.innerHTML='<div class=\'card-img-placeholder\'><svg width=\'64\' height=\'64\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'#c9933a\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/></svg><span>LIFT RUMAH SAKIT</span></div>'">
+        <span class="card-badge new">BARU</span>
+      </div>
+      <div class="card-body">
+        <div class="card-cat">LIFT PENUMPANG</div>
+        <div class="card-name">Hospital &amp; Medical<br>Elevator HM-1600</div>
+        <div class="card-desc">Dirancang khusus untuk rumah sakit, klinik, dan fasilitas medis. Mendukung dimensi tandu dan kursi roda penuh.</div>
+        <div class="card-specs">
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>1600 kg</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>1.0 m/s</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>Max 15 Lantai</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Tandu Penuh</div>
+        </div>
+        <div class="card-footer">
+          <span class="card-price">MINTA PENAWARAN</span>
+          <span class="card-cta">DETAIL →</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="product-card reveal reveal-d2" data-cat="penumpang" onclick="openModal(2)">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80" alt="Home Elevator" onerror="this.parentElement.innerHTML='<div class=\'card-img-placeholder\'><svg width=\'64\' height=\'64\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'#c9933a\' stroke-width=\'1\'><path d=\'M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z\'/></svg><span>HOME LIFT</span></div>'">
+      </div>
+      <div class="card-body">
+        <div class="card-cat">LIFT PENUMPANG</div>
+        <div class="card-name">Residential Home<br>Lift HL-400</div>
+        <div class="card-desc">Lift hunian mewah dengan desain minimalis. Sempurna untuk rumah 2–4 lantai dengan kapasitas kompak namun elegan.</div>
+        <div class="card-specs">
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>400 kg</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>0.63 m/s</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>Max 6 Lantai</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>5 Orang</div>
+        </div>
+        <div class="card-footer">
+          <span class="card-price">MINTA PENAWARAN</span>
+          <span class="card-cta">DETAIL →</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="product-card reveal" data-cat="barang" onclick="openModal(3)">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1553546895-531931aa1aa8?w=600&q=80" alt="Freight Elevator" onerror="this.parentElement.innerHTML='<div class=\'card-img-placeholder\'><svg width=\'64\' height=\'64\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'#c9933a\' stroke-width=\'1\'><rect x=\'1\' y=\'3\' width=\'15\' height=\'13\'/><polygon points=\'16 8 20 8 23 11 23 16 16 16 16 8\'/><circle cx=\'5.5\' cy=\'18.5\' r=\'2.5\'/><circle cx=\'18.5\' cy=\'18.5\' r=\'2.5\'/></svg><span>LIFT BARANG</span></div>'">
+        <span class="card-badge best">POPULER</span>
+      </div>
+      <div class="card-body">
+        <div class="card-cat">LIFT BARANG</div>
+        <div class="card-name">Heavy Duty Freight<br>Elevator FE-3000</div>
+        <div class="card-desc">Lift barang kapasitas besar untuk pabrik, gudang, dan pusat distribusi. Struktur baja tebal dengan sistem pengamanan berlapis.</div>
+        <div class="card-specs">
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>3000 kg</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>0.5 m/s</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>Max 10 Lantai</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8"/></svg>Forklift Ready</div>
+        </div>
+        <div class="card-footer">
+          <span class="card-price">MINTA PENAWARAN</span>
+          <span class="card-cta">DETAIL →</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="product-card reveal reveal-d1" data-cat="barang" onclick="openModal(4)">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=600&q=80" alt="Service Elevator" onerror="this.parentElement.innerHTML='<div class=\'card-img-placeholder\'><svg width=\'64\' height=\'64\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'#c9933a\' stroke-width=\'1\'><path d=\'M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z\'/></svg><span>SERVICE ELEVATOR</span></div>'">
+      </div>
+      <div class="card-body">
+        <div class="card-cat">LIFT BARANG</div>
+        <div class="card-name">Service &amp; Cargo<br>Elevator SC-1500</div>
+        <div class="card-desc">Lift servis multifungsi untuk hotel, mal, dan gedung komersial. Dirancang untuk beban berat dengan penggunaan intensif.</div>
+        <div class="card-specs">
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>1500 kg</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>1.0 m/s</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>Max 25 Lantai</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>Anti Korosi</div>
+        </div>
+        <div class="card-footer">
+          <span class="card-price">MINTA PENAWARAN</span>
+          <span class="card-cta">DETAIL →</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 6 -->
+    <div class="product-card reveal reveal-d2" data-cat="eskalator" onclick="openModal(5)">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&q=80" alt="Escalator" onerror="this.parentElement.innerHTML='<div class=\'card-img-placeholder\'><svg width=\'64\' height=\'64\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'#c9933a\' stroke-width=\'1\'><path d=\'M4 20L20 4M8 4h12v12\'/></svg><span>ESKALATOR</span></div>'">
+        <span class="card-badge new">UNGGULAN</span>
+      </div>
+      <div class="card-body">
+        <div class="card-cat">ESKALATOR</div>
+        <div class="card-name">Commercial Indoor<br>Escalator ES-1000</div>
+        <div class="card-desc">Eskalator komersial dengan kapasitas tinggi untuk mal, stasiun, dan bandara. Sistem anti-kecelakaan dan hemat energi terbaru.</div>
+        <div class="card-specs">
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>9000 org/jam</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>0.5 m/s</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>Lebar 1000mm</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>Hemat Energi</div>
+        </div>
+        <div class="card-footer">
+          <span class="card-price">MINTA PENAWARAN</span>
+          <span class="card-cta">DETAIL →</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 7 -->
+    <div class="product-card reveal" data-cat="eskalator" onclick="openModal(6)">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1478827387698-1527781a4887?w=600&q=80" alt="Moving Walk" onerror="this.parentElement.innerHTML='<div class=\'card-img-placeholder\'><svg width=\'64\' height=\'64\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'#c9933a\' stroke-width=\'1\'><path d=\'M5 12h14M12 5l7 7-7 7\'/></svg><span>MOVING WALK</span></div>'">
+      </div>
+      <div class="card-body">
+        <div class="card-cat">ESKALATOR</div>
+        <div class="card-name">Moving Walkway<br>MW-600F</div>
+        <div class="card-desc">Travelator / moving walk untuk bandara, rumah sakit besar, dan pusat perbelanjaan. Inklinasi 0° hingga 12° fleksibel.</div>
+        <div class="card-specs">
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>12000 org/jam</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>0.75 m/s</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>Lebar 600mm</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><path d="M4 20L20 4"/></svg>0°–12° Inklinasi</div>
+        </div>
+        <div class="card-footer">
+          <span class="card-price">MINTA PENAWARAN</span>
+          <span class="card-cta">DETAIL →</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 8 -->
+    <div class="product-card reveal reveal-d1" data-cat="dumbwaiter" onclick="openModal(7)">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Dumbwaiter" onerror="this.parentElement.innerHTML='<div class=\'card-img-placeholder\'><svg width=\'64\' height=\'64\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'#c9933a\' stroke-width=\'1\'><path d=\'M3 2h18M3 22h18M3 12h18\'/><rect x=\'7\' y=\'6\' width=\'10\' height=\'12\' rx=\'1\'/></svg><span>DUMBWAITER</span></div>'">
+        <span class="card-badge new">BARU</span>
+      </div>
+      <div class="card-body">
+        <div class="card-cat">DUMBWAITER</div>
+        <div class="card-name">Restaurant Food<br>Dumbwaiter DW-100</div>
+        <div class="card-desc">Lift makanan mini untuk restoran, hotel, dan dapur komersial. Pengiriman makanan antar lantai yang cepat, higienis, dan senyap.</div>
+        <div class="card-specs">
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>100 kg</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>0.4 m/s</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>Max 8 Lantai</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Food Grade</div>
+        </div>
+        <div class="card-footer">
+          <span class="card-price">MINTA PENAWARAN</span>
+          <span class="card-cta">DETAIL →</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 9 -->
+    <div class="product-card reveal reveal-d2" data-cat="penumpang" onclick="openModal(8)">
+      <div class="card-img">
+        <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80" alt="Panoramic Elevator" onerror="this.parentElement.innerHTML='<div class=\'card-img-placeholder\'><svg width=\'64\' height=\'64\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'#c9933a\' stroke-width=\'1\'><circle cx=\'12\' cy=\'12\' r=\'10\'/><path d=\'M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20\'/></svg><span>PANORAMIC LIFT</span></div>'">
+      </div>
+      <div class="card-body">
+        <div class="card-cat">LIFT PENUMPANG</div>
+        <div class="card-name">Panoramic Glass<br>Elevator PG-630</div>
+        <div class="card-desc">Lift kaca panoramik transparan 270° untuk lobby mewah, atrium, dan bangunan ikonik. Menjadi daya tarik visual utama gedung.</div>
+        <div class="card-specs">
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z"/></svg>630 kg</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>1.5 m/s</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>Max 30 Lantai</div>
+          <div class="spec-chip"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>Kaca 270°</div>
+        </div>
+        <div class="card-footer">
+          <span class="card-price">MINTA PENAWARAN</span>
+          <span class="card-cta">DETAIL →</span>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end grid -->
+</div><!-- end section -->
+
+<!-- BANNER CTA -->
+<div class="banner-cta reveal">
+  <div class="banner-text">
+    <h3>Tidak Menemukan yang Anda Cari?</h3>
+    <p>Kami menyediakan solusi custom sesuai kebutuhan spesifik proyek Anda. Konsultasikan langsung dengan tim engineer kami.</p>
+  </div>
+  <a href="hubungi-kami.html" class="banner-btn">KONSULTASI GRATIS</a>
+</div>
+
+<!-- STATS -->
+<div class="stats-strip">
+  <div class="stat-item reveal">
+    <div class="stat-num">10+</div>
+    <div class="stat-label">TAHUN PENGALAMAN</div>
+  </div>
+  <div class="stat-item reveal reveal-d1">
+    <div class="stat-num">100+</div>
+    <div class="stat-label">PROYEK SELESAI</div>
+  </div>
+  <div class="stat-item reveal reveal-d2">
+    <div class="stat-num">98%</div>
+    <div class="stat-label">KEPUASAN CLIENT</div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">LITUHA <em>ELEVATOR</em></div>
+        <div class="footer-addr">
+          Office & Workshop Bogor<br>
+          Pergudangan Kp. Jati pondok, RT.003/RW.005, Tonjong, <br>
+          Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16320<br>
+          <br>
+          
+        </div>
+        <div class="footer-addr">
+          Office & Workshop Kudus<br>
+          Jati, Golantepus, Kec. Mejobo, Kabupaten Kudus, Jawa Tengah 59381
+          
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigasi</h4>
+        <a href="#">Beranda</a>
+        <a href="#">Produk</a>
+        <a href="#">Layanan</a>
+        <a href="#">Proyek</a>
+        <a href="#">Karir</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="#">Privasi</a>
+        <a href="#">Ketentuan Penggunaan</a>
+        <a href="#">Aksesibilitas</a>
+        <a href="#">Keamanan Siber</a>
+        <a href="#">Peta Situs</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 PT. LITUHA GUNANTARA INNOVATION. Hak Cipta Dilindungi.</p>
+      <div class="socials">
+        <a class="soc" href="#">f</a>
+        <a class="soc" href="#">ig</a>
+        <a class="soc" href="#">▶</a>
+        <a class="soc" href="#">in</a>
+        <a class="soc" href="#">𝕏</a>
+      </div>
+    </div>
+  </footer>
+ <a href="https://wa.me/6285775574779?text=Halo%20PT%20Lituha%20Gunantara%20Innovation,%20saya%20tertarik%20dengan%20layanan%20lift%20.%20Mohon%20info%20spesifikasi,%20harga,%20serta%20proses%20instalasi.%20Terima%20kasih."
+    class="wa-float" target="_blank">
+    <span class="wa-text">Chat Sekarang</span>
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+  </a>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModalOutside(event)">
+  <div class="modal" id="modal">
+    <div class="modal-close"><button onclick="closeModal()">✕</button></div>
+    <div class="modal-grid">
+      <div class="modal-img" id="modalImg"></div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+</div>
+<script src="js/main.js"></script>
+<script src="js/dataproduk.js"></script>
+
+</body>
+</html> 
